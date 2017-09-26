@@ -20,9 +20,20 @@ namespace WpfApp3
     /// </summary>
     public partial class MainWindow : Window
     {
+        int clickcount = 0;
         public MainWindow()
         {
+           
             InitializeComponent();
+        }
+
+        private void mijnButton_Click(object sender, RoutedEventArgs e)
+        {
+            clickcount = clickcount + 1;
+            Labello1.Content = "een enal miserie";
+            monLabel.Background = Brushes.Navy;
+            mijnButton.Content = Convert.ToString("Klik hier " + clickcount);
+
         }
     }
 }

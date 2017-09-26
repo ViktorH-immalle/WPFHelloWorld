@@ -6,7 +6,11 @@
         xmlns:local="clr-namespace:WpfApp3"
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        
+    <Grid x:Name="Labello">
+        <Button x:Name="mijnButton" Content="Klik hier!" HorizontalAlignment="Left" Margin="202,216,0,0" VerticalAlignment="Top" Width="96" FontSize="18" Background="#FFFF30FF" BorderBrush="#FFFF30FF" Foreground="#FF00E8FF" Height="35" Click="mijnButton_Click"/>
+        <Label x:Name="Malabel" Content="Hallo wereld! Mijn naam is Viktor." HorizontalAlignment="Left" Margin="320,10,0,0" VerticalAlignment="Top" Height="26" Width="187" Background="#FFDCFF00" Foreground="#FF008AA0"/>
+        <Label x:Name="monLabel" Content="" HorizontalAlignment="Left" Margin="176,125,0,0" VerticalAlignment="Top" Height="63" Width="146" Background="#FFC46FFF" Foreground="#FF830000"/>
+        <Label x:Name="Labello1" Content="De wereld is...?" HorizontalAlignment="Left" Margin="320,41,0,0" VerticalAlignment="Top" Height="25" Width="187" Background="#FFDCFF00" Foreground="#FF0070BD"/>
+
     </Grid>
 </Window>
